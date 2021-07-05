@@ -1,0 +1,76 @@
+/*css use all website*/
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+span{
+    color: #fb9149;
+    display:inline-block
+}
+/*end css use all website*/
+
+/*Header section start*/
+.header{
+    margin-top:10px
+}
+.header-top{
+    justify-content: space-between;
+}
+.header-logo {
+    margin-left: 6%;
+}
+.header-logo h3{
+    color:#575757;
+}
+.header-menu{
+  margin-right: 6%;
+}
+.header-menu a{
+   display: inline-block;
+   color:#fb9149;
+   padding:0px  5px;
+   margin:0px 26px
+}
+.header-hero{
+    align-items: center;
+}
+.header-left{
+    width: 44%;
+    margin-left: 6%;
+}
+.header-left h1{
+    font-size: 50px;
+    color: #575757;
+}
+.header-left p{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #575757;
+}
+.header-right{
+    width: 44%;
+    margin-right: 6%;
+}
+.btn{
+    display:inline-block;
+    background-image: linear-gradient(to right bottom ,#fc9c60 , #fa4c31 );
+    color: white;
+    padding:14px 35px;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+/*header-section-end*/
+
+/*about-section*/
